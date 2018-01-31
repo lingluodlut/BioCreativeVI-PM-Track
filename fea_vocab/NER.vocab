@@ -1,0 +1,14 @@
+emb_pad
+B-rna
+O
+I-dna
+B-protein
+I-disease
+I-drug
+I-mutation
+I-protein
+I-rna
+B-mutation
+B-disease
+B-dna
+B-drug
