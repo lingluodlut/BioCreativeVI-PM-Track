@@ -4,7 +4,6 @@
 
 BioCreativeVI-PM-Track Document Triage Task uses the following dependencies:
 
-
 - [Python 2.7](https://www.python.org/)
 - [keras 2.0.9](https://keras.io/)
 - [numpy 1.12.1](http://www.numpy.org/)
@@ -31,3 +30,13 @@ BioCreativeVI-PM-Track Document Triage Task uses the following dependencies:
 - fea_vocab
 	- POS.vocab: the lookup table of the POS feature
 	- NER.vocab: the lookup table of the NER feature
+
+
+## Models
+
+The trained models can be downloaded from [https://www.kaggle.com/lingluodlut/biocreativevipmtrackmodels/data](https://www.kaggle.com/lingluodlut/biocreativevipmtrackmodels/data).
+
+- models
+	- BioCreativevi.rar: the 50-dimensional word embedding
+	- bilstm-att-token-1l-50d-ppipre.rar: the pre-trained PPI model
+	- models-ppipre-nofea.rar: the models without additional features (including LSTM, CNN, LSTM-CNN, RCNN, HieLSTM and a ensemble model using a logistic regression)
