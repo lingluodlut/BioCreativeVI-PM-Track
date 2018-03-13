@@ -162,7 +162,7 @@ if __name__ == '__main__':
             model= Model(inputs=word,outputs=predict)
 
     
-    model.load_weights(model_file, by_name=True)
+    model.load_weights(model_file, by_name=False)
     model.summary()
 
     train_token_text,train_pos_text,train_ner_text=Load_dataset.read_dataset('/home/BIO/luoling/biocreativeVI/data/ppiac/fea-add/PMtask_Triage_TrainingSet_ir_scon.conll.PPIAC')
