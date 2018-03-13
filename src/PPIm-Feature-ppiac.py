@@ -136,7 +136,7 @@ if __name__ == '__main__':
 	ppi_fc=Dense(50,activation='relu',name='ppi_dense2',trainable=s['ppilayer_train'])(ppi_fc)
         pool=Concatenate()([pool,ppi_fc])
 
-    predict=Dense(2,activation='softmax',name='ppi_pre')(pool)
+    predict=Dense(2,activation='softmax',name='lastpre')(pool)
     if s['pos_fea']==True and s['ner_fea']==False:
         if s['model']=='RCNN':
             model= Model(inputs=[word,l_context,r_context,POS_fea],outputs=predict)
