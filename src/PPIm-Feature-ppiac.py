@@ -59,7 +59,7 @@ if __name__ == '__main__':
    
     
     word=Input(shape=(s['max_len'],), dtype='int32', name='word')
-    word_emb=Embedding(rep1.vec_table.shape[0], rep1.vec_table.shape[1], weights=[rep1.vec_table], input_length=s['max_len'],name='emb')
+    word_emb=Embedding(rep1.vec_table.shape[0], rep1.vec_table.shape[1], weights=[rep1.vec_table], input_length=s['max_len'])
     word_vec=word_emb(word)
     
     if s['pos_fea']==True and s['ner_fea']==False:
