@@ -1,5 +1,7 @@
 # BioCreativeVI-PM-Track Document Triage Task
 ***
+This repo contains the source code and dataset for the following paper:
+- [Ling Luo, Zhihao Yang, Hongfei Lin, Jian Wang; Document triage for identifying protein–protein interactions affected by mutations: a neural network ensemble approach, Database, Volume 2018, 1 January 2018, bay097](https://academic.oup.com/database/article/doi/10.1093/database/bay097/5103353)
 ## Dependency package
 
 BioCreativeVI-PM-Track Document Triage Task uses the following dependencies:
